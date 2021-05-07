@@ -1,0 +1,144 @@
+openapi: 3.0.1
+info:
+  title: Application
+  description: Generated at 20/04/2021 22:18:36. This is the swagger 
+     based on the open api 3.0 specification of the Application built by Varchaleswari and Bhagirath
+  version: 1.0.0
+externalDocs:
+  description: Find out more about Swagger
+  url: 'http://swagger.io'
+servers:
+  - url: /
+paths:
+  '/periodictable/load':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable'
+  '/periodictable/classification/<string:clss>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable6'
+      parameters:
+      - in: path
+        name: clss
+        schema:
+          type: string
+        description: None
+        required: True
+  '/periodictable/element/<string:sym>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable7'
+      parameters:
+      - in: path
+        name: sym
+        schema:
+          type: string
+        description: None
+        required: True
+  '/periodictable/period/<string:clss>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable86597'
+      parameters:
+      - in: path
+        name: clss
+        schema:
+          type: string
+        description: None
+        required: True
+  '/periodictable/block/<string:clss>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable89'
+      parameters:
+      - in: path
+        name: clss
+        schema:
+          type: string
+        description: None
+        required: True
+  '/periodictable/group/<string:clss>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable869'
+      parameters:
+      - in: path
+        name: clss
+        schema:
+          type: string
+        description: None
+        required: True
+  '/periodictable/state/<string:clss>':
+    get:
+      tags:
+      - None
+      operationId: 'inserttable8659'
+      parameters:
+      - in: path
+        name: clss
+        schema:
+          type: string
+        description: None
+        required: True
+  '/objects/{object_id}':
+    put:
+      tags:
+      - objects
+      operationId: 'update_object'
+      requestBody:
+        $ref: 'update_object_request_body' 
+      responses:
+        '200':
+          $ref: '#/components/responses/update_object_response'
+      security:
+        - bearerAuth: []
+      parameters:
+      - in: path
+        name: object_id
+        schema:
+          type: integer
+        description: None
+        required: True
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  requestBodies:
+    update_object_request_body:
+      description: None
+      required: True
+      content:
+         application/json:
+             schema:
+                 $ref: '#/components/schemas/update_object_request_body_schema'
+  responses:
+    update_object_response:
+      description: update_object response
+      content:
+         application/json:
+             schema:
+                 $ref: '#/components/schemas/update_object_response_schema'
+  schemas:
+    update_object_request_body_schema:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+    update_object_response_schema:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
