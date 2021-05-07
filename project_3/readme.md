@@ -3,6 +3,15 @@
 **Due**: Sunday, March 21st  
 Teams of 2 (please email me the team memberships as soon as possible)
 
+#########################################################################
+#
+Contributors:
+#
+Varchaleswari Ganugapati, email : vganugapati1@student.gsu.edu
+Bhagirath Tallapragada, email : btallapragada1@student.gsu.edu
+#
+#########################################################################
+
 ### JSON Parsing
 
 In this project, you will write a Python program that processes JSON files containing information about data input forms. The Python program takes as command line input a JSON file name and produces as output the following five files:
