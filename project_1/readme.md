@@ -22,19 +22,19 @@ Here are the screenshots of the user interface, shown progressively as the user 
 
 #### Initial Screen
 
-![](./qbe1.png)
+![](./initial.png)
 
 #### Screen after user successfully enters MySQL credentials
 
-![](./qbe2.png)
+![](./second.png)
 
 #### Screen after user retrieves table skeletons to express QBE query
 
-![](./qbe3.png)
+![](./3.png)
 
 #### Screen after user submits QBE query for execution
 
-![](./qbe4.png)
+![](./4.png)
 
 #### Notes
 
