@@ -21,20 +21,19 @@ You will implement this project as a Single Page Application (SPA) using modern 
 Here are the screenshots of the user interface, shown progressively as the user interacts with the UI:
 
 #### Initial Screen
-
-![](./initial.png)
+![](project_1/initial.PNG)
 
 #### Screen after user successfully enters MySQL credentials
 
-![](./second.png)
+![](./second.PNG)
 
 #### Screen after user retrieves table skeletons to express QBE query
 
-![](./3.png)
+![](./3.PNG)
 
 #### Screen after user submits QBE query for execution
 
-![](./4.png)
+![](./4.PNG)
 
 #### Notes
 
