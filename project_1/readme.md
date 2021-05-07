@@ -4,6 +4,15 @@
 **Due**: Sunday, January 31, 2021  
 To be completed in teams of 2 members, with one person focusing on frontend and the other focusing on backend. This does not preclude helping each other!
 
+#########################################################################
+#
+Contributors:
+#
+Varchaleswari Ganugapati, email : vganugapati1@student.gsu.edu
+Bhagirath Tallapragada, email : btallapragada1@student.gsu.edu
+#
+#########################################################################
+
 ### An Online QBE Processor for MySQL
 
 In this programming assignment, you will implement a Web-based QBE (Query By Example) Processor for MySQL databases. [QBE](http://tinman.cs.gsu.edu/~raj/8711/sp21/p1/qbe.pdf) is a visual query language in which the user expresses a relational query using example elements and variables. You will implement a subset of the language. The subset should include simple Select-Project-Join (SPJ) queries as well as two additional advanced features.
